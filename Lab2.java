@@ -62,7 +62,18 @@ public class Lab2 {
         // Hint: vowels = a, e, i, o, u
         // Use .toLowerCase(). startsWith()
         // ================================================
-        
+         int vowelCount = 0;
+         for (String item : groceryList) {
+            String lowerItem = item.toLowerCase();
+            if(lowerItem.startsWith("a") ||
+               lowerItem.startsWith("e") ||
+               lowerItem.startsWith("i") ||
+               lowerItem.startsWith("o") ||
+               lowerItem.startsWith("u")) {
+                vowelCount++;
+               }
+         }
+
  
  
         // ================================================
